@@ -1,0 +1,15 @@
+
+======================================================================
+[CRASH REPORT] - 2026-10-27 05:52:32
+======================================================================
+Traceback (most recent call last):
+  File "C:\Users\Rafik\Desktop\ai derictory french\AMAZON_TREND_HUNTER\trend_hunter_gui.pyw", line 1326, in <module>
+    app = AmazonTrendHunterApp(root)
+  File "C:\Users\Rafik\Desktop\ai derictory french\AMAZON_TREND_HUNTER\trend_hunter_gui.pyw", line 401, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Rafik\Desktop\ai derictory french\AMAZON_TREND_HUNTER\trend_hunter_gui.pyw", line 450, in setup_ui
+    command=self.toggle_theme
+            ^^^^^^^^^^^^^^^^^
+AttributeError: 'AmazonTrendHunterApp' object has no attribute 'toggle_theme'
+
